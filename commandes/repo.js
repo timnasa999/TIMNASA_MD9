@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/NjabuloJ/Njabulo-jb';
-  const img = 'https://files.catbox.moe/xfn913.jpg';
+  const githubRepo = 'https://github.com/timnasa999/TIMNASA_MD9';
+  const img = 'https://files.catbox.moe/9svcrv.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -21,7 +21,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `> *Hi there,If you need Njabulo-Jb repo*\n> *Anything You want Is Here*
+      const gitdata = `> *Hi there,If you need TIMNASA MD repo*\n> *Anything You want Is Here*
 ╭─────────────────
 ││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧* https://shorturl.at/9WfYs
 ││ *𝐑𝐞𝐩𝐨:* https://shorturl.at/0TtVa
@@ -29,10 +29,10 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
 ││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
 ││ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
 ││ *𝐔𝐩𝐝𝐚𝐭𝐞𝐝:* ${repoInfo.lastUpdate}
-││ *𝐎𝐰𝐧𝐞𝐫:* *Njabulo*
-││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://shorturl.at/q8ZuS
+││ *𝐎𝐰𝐧𝐞𝐫:* *TIMNASA-VENOM*
+││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://github.com/timnasa999/TIMNASA_MD9
 ╰─────────────────
-> *Njabulo Jb*`;
+> *TIMNASA-TMD*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
