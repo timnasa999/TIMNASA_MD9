@@ -28,7 +28,7 @@ zokou(
     const msg = await zk.sendMessage(dest, {
       text: '*Testing Ping!!!*',
     }, {
-      quoted: ms
+      quoted:999999999999999999999999999999999999/timnasa pong ms
     });
     const end = new Date().getTime();
     const ping = end - start;
