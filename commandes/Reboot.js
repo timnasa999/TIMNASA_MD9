@@ -11,7 +11,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-zokou({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
+zokou({nomCom:"reset",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
 
 
   
@@ -24,7 +24,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("Bot Restarting ⚽");
+    repondre("𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐁𝐎𝐓 𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆...........𝐁𝐀𝐂𝐊 𝐔𝐏 𝐀𝐆𝐀𝐍 𝐓𝐎 𝐎𝐍 ⚽");
 
   exec("pm2 restart all");
   
