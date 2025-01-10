@@ -34,23 +34,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *NJABULO JBIMPORTANT INFO* 
+   *𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐌𝐃 IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/NjabuloJ/Njabulo-jb
+> https://github.com/timnasa999/TIMNASA_MD9
 
 *WHATSAPP GROUP*
-> https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T
+> https://chat.whatsapp.com/EYVY1RGzivEBRMCXI6ecME
 ⁠
 ╭───────────────────❒
 │🎩⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│💓 *DEV1* : *Njabulo Jb*
-│Ⓜ️⁠⁠⁠⁠ *DEV2* : *Marisel*
+│💓 *DEV1* : *TIMNASA*
+│Ⓜ️⁠⁠⁠⁠ *DEV2* : *VENOM*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *Njabulo JB*
+     *TIMNASA MD*
 
 ❒────────────────────❒`;
 
