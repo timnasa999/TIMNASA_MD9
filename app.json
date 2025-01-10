@@ -1,5 +1,5 @@
 {
-  "name": "Njabulo",
+  "name": "TIMNASA-MD9",
   "description": "This BOT was developed by Marisel",
   "keywords": [
     "bot",
@@ -7,8 +7,8 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/xfn913.jpg",
-  "repository": "https://github.com/NjabuloJ/Njabulo-JB1",
+  "logo": "https://files.catbox.moe/9svcrv.jpg",
+  "repository": "https://github.com/timnasa999/TIMNASA_MD9",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -49,12 +49,12 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "Njabulo Jb",
+      "value": "TIMNASA MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/dyc9kw.jpg",
+      "value":"https://files.catbox.moe/9svcrv.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -85,7 +85,7 @@
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "26777821911"
+      "value": "255784766591"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
