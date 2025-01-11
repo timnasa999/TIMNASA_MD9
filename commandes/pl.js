@@ -68,7 +68,7 @@ module.exports = async (messageDetails) => {
           title: videoDetails.title,
           body: videoDetails.title,
           mediaType: 1,
-          sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T',
+          sourceUrl: 'https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31',
           thumbnailUrl: firstVideo.thumbnail,
           renderLargerThumbnail: false,
           showAdAttribution: true,
