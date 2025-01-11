@@ -48,7 +48,7 @@ const date = moment().format('DD/MM/YYYY');
  `;
     
 let menuMsg = `
-> *Made by : Marisel™*
+> *Made by : timnasa™*
 `;
 
    var lien = mybotpic();
