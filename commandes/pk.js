@@ -11,9 +11,9 @@ module.exports = async (context) => {
             contextInfo: {
                 mentionedJid: [m.sender], // Mention the sender
                 externalAdReply: {
-                    title: "*Marisel*",
-                    body: "Njabulo Jb ",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    title: "*venom*",
+                    body: "timnasa ",
+                    sourceUrl: "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
                     mediaType: 1,
                     renderLargerThumbnail: false
                 }
