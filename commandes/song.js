@@ -38,7 +38,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*©𝐞𝐧g𝐳𝐨*_`
+_*©timnasa*_`
        }
 
       
