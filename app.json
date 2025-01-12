@@ -1,6 +1,6 @@
 {
   "name": "TIMNASA-MD9",
-  "description": "This BOT was developed by Marisel",
+  "description": "This BOT was developed by TIMNASA-VENOM",
   "keywords": [
     "bot",
     "node",
@@ -80,7 +80,7 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "Njabulo"
+      "value": "TIMNASA-MD"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
