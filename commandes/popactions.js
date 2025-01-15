@@ -13,7 +13,7 @@ const sleep =  (ms) =>{
   } ;
 
 
-  adams({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+  adams({ nomCom: "tags", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
@@ -487,7 +487,7 @@ adams({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
   
           let stickerMess = new Sticker(media, {
-            pack: 'BMW-MD-TAG',
+            pack: 'TIMNASA-MD-TAG',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
@@ -539,7 +539,7 @@ adams({
 
   if (alldata.length === 0 ) { repondre(`To activate or modify the mention; follow this syntax: mention link type message
   The different types are audio, video, image, and sticker.
-  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Beltah`) ; return}
+  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is timnasa`) ; return}
 
       if(data.status == 'non') {
           etat = 'Desactived'
@@ -560,7 +560,7 @@ Link: ${url}
 
 To activate or modify the mention, follow this syntax: mention link type message
 The different types are audio, video, image, and sticker.
-Example: mention https://telegra.ph/file/52e3bb0ba3868d64df3f0.jpg image Hi, my name is Beltah
+Example: mention https://telegra.ph/file/52e3bb0ba3868d64df3f0.jpg image Hi, my name is timnasa
 
 To stop the mention, use mention stop`;
 
