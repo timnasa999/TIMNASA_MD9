@@ -18,7 +18,7 @@ zokou({ nomCom: "lyrics",
 
     if (lyrics.error) return repondre("no lyrics found");
 
-    let msg = `---------Anyway-lyrics-finder--------
+    let msg = `---------timnasa md-lyrics-finder--------
 
 * *Artist :* ${lyrics.artist}
 
@@ -31,6 +31,6 @@ ${lyrics.lyrics}`
     zk.sendMessage(dest,{image : { url : './media/lyrics-img.jpg'} , caption : msg}, { quoted : ms });
     
    } catch (err) {
-       repondre('Error')
+       repondre('https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31')
    }
         })
