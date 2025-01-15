@@ -39,7 +39,7 @@ zokou(
       }});
     await zk.sendMessage(dest, {
       react: {
-        text: "⚙️", key: ms.key
+        text: "⚙️", key:`https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31 ms.key
       }})
   }
 )
